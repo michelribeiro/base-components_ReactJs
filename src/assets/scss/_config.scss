@@ -1,0 +1,13 @@
+/*|---------------| App Color Schema|---------------*/
+$BLACK: #000000;
+
+/*|---------------|MIXINS|---------------*/
+
+@mixin margin-page {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+  
+    @media #{$BREAKPOINT-DESK} {
+      max-width: 1000px;
+    }
+  }
